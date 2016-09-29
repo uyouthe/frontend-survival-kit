@@ -6,6 +6,9 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen-16x10.css">
+    <style>
+        .black { background-color: #000; }
+    </style>
 </head>
 <body class="shower list">
 	<header class="caption">
@@ -51,7 +54,7 @@
 	
 	<section class="slide">
 		<h2>Обо мне</h2>
-		<img class="left" src="pictures/me.PNG" width="255" height="319">
+		<img class="left" src="pictures/me.PNG" width="255" height="319" style="float: left;margin-right: 40px;">
 		<a href="https://vk.com/eyefronter">
 			vk.com/eyefronter
 		</a>
@@ -68,12 +71,6 @@
 		<p>
 			Фронтенд-разработчик. Увлекаюсь программированием и дизайном. Выпускник HTML Academy.
 		</p>
-		<style>
-			.left {
-				float: left;
-				margin-right: 40px;
-			}
-		</style>
 	</section>
 	
 	
@@ -87,13 +84,8 @@
 	</section>
 	
 	
-	<section class="slide black-slide">
+	<section class="slide black">
 		<video class="cover" src="videos/game.mp4" controls loop muted></video>
-		<style>
-			.black-slide {
-				background-color: #000;
-			}
-		</style>
 	</section>
 
 	
@@ -103,14 +95,7 @@
 	
 	
 	<section class="slide">
-		<img class="ha" src="pictures/logo.png">
-		<style>
-			.ha {
-				display: block;
-				margin: 0 auto;
-				margin-top: 150px;
-			}
-		</style>
+		<img src="pictures/logo.png" style="display:block;margin: 0 auto;margin-top:150px;">
 	</section>
 	
 	
@@ -155,14 +140,14 @@
 	
 	<section class="slide">
 		<h2 class="shout shrink">
-			Fast & lighweight
+			&laquo;Fast & lighweight&raquo;
 		</h2>
 	</section>
 	
 	
 	<section class="slide">
 		<h2 class="shout shrink">
-			Large scale
+			&laquo;Large scale&raquo;
 		</h2>
 	</section>
 	
@@ -181,20 +166,13 @@
 	</section>
 	
 	
-	<section class="slide">
-		<p>
-			(пауза)
-		</p>
+	<section class="slide black">
+		<img src="pictures/loading-circle.gif" class="cover" style="width: 100px; height: 100px;">
 	</section>
 	
 	
-	<section class="slide buy1c">
-		<style>
-			.buy1c {
-				background-image: url(pictures/1c.png);
-				background-size: cover;
-			}
-		</style>
+	<section class="slide">
+        <img class="cover" src="pictures/1c.png" style="height:100%;">
 	</section>
 	
 	
@@ -289,25 +267,18 @@
 	</section>
 	
 	
-	<section class="slide">
-		<p>
-			(пауза)
-		</p>
+	<section class="slide black">
+		<img src="pictures/loading-circle.gif" class="cover" style="width: 100px; height: 100px;">
 	</section>
 	
 	
 	<section class="slide">
-		<cite>
-			You're not an Angular nor an Express developer. You're a <strong>developer.</strong>
-		</cite>
-		<style>
-			cite {
-				display: block;
-				width: 550px;
-				margin: 0 auto;
-				margin-top: 170px;
-			}
-		</style>
+		<blockquote class="quote">
+            <p style="font-size: 80px;">
+                You're not an Angular nor an Express developer. You're a
+                <strong>developer.</strong>
+            </p>
+		</blockquote>
 	</section>
 	
 	
@@ -352,10 +323,10 @@
 	
 	
 	<section class="slide">
-		<p>
+		<p style="font-size: 50px;">
 			Задача &mdash; сверстать поле ввода.
 		</p>
-		<img class="cover" src="pictures/mock.PNG">
+		<input type="text" style="padding:10px;outline:none;border-radius:10px;transform:scale(3);position:absolute;bottom: 150px;left: 400px;border-color:#555;">
 	</section>
 	
 	
@@ -372,12 +343,12 @@
 			<code>   border-radius: 10px;</code>
 			<code>}</code>
 		</pre>
-		<img src="pictures/mock.PNG">
+		<input type="text" style="padding:10px;outline:none;border-radius:10px;transform:scale(3);position:absolute;bottom: 150px;left: 400px;border-color:#555;">
 	</section>
 	
 	
 	<section class="slide">
-		<img class="cover" src="pictures/acid2.png">
+		<img class="cover" src="pictures/acid2.png" style="height: 80%;">
 	</section>
 	
 	
@@ -397,12 +368,7 @@
 	
 	
 	<section class="slide">
-		<h2 id="center-h2" class="shout">Пользуйтесь тем, <br> с чем не нужно бороться.</h2>
-		<style>
-			#center-h2 {
-				font-size: 100px;
-			}
-		</style>
+		<h2 id="center-h2" class="shout" style="font-size: 100px;">Пользуйтесь тем, <br> с чем не нужно бороться.</h2>
 	</section>
 	
 	
@@ -463,17 +429,12 @@
 	
 	
 	<section class="slide">
-		<img class="cover" src="pictures/enki.png">
+		<img class="cover" style="height: 100%;" src="pictures/enki.png">
 	</section>
 	
 	
 	<section class="slide">
-		<img class="cover" id="graph" src="pictures/graph.png">
-		<style>
-			#graph {
-				width: 80%;
-			}
-		</style>
+		<img class="cover" src="pictures/graph.png" style="width: 90%;">
 	</section>
 	
 	
@@ -514,8 +475,7 @@
 	
 	
 	<section class="slide">
-		<h2>
-			uyouthe.github.io/frontend-survival-kit
+		<h2 class="shout">
 			bit.do/fsk
 		</h2>
 	</section>
